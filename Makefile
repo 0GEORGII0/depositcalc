@@ -3,7 +3,7 @@
 g = g++
 flags = -Wall -c
 
-all: 
+all: build/src
 
 bin/main: build/main.o build/deposit.o 
 	$(g) $^ -o bin/main
